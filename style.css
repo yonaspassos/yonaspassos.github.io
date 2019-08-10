@@ -1,6 +1,6 @@
 :root {
     --aside-text-color: whitesmoke;
-    --aside-bg-color: #293A80;
+    --aside-bg-color: #0A5E50;
     --main-text-color: #333;
 } 
 
@@ -46,11 +46,11 @@ aside {
 }
 
 aside .avatar {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 aside .avatar img {
-    width: 65%;
+    width: 50%;
     display: block;
     margin: 0 auto;
     box-shadow: 10px 9px 31px black;
