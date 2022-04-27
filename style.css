@@ -1,7 +1,8 @@
 :root {
-    --aside-text-color: whitesmoke;
-    --aside-bg-color: #0A5E50;
+    --aside-text-color: #fff;
+    --aside-bg-color: #4D0073;
     --main-text-color: #333;
+    --a-text-color: #5A7300;
 } 
 
 body {
@@ -87,6 +88,7 @@ main.content {
 main .icon {
     padding: 5px;
     font-size: 20px;
+    color: var(--aside-bg-color);
 }
 
 .projects article {
@@ -100,4 +102,8 @@ main .icon {
 
 .projects article footer {
     font-size: 0.8rem;
+}
+
+a {
+    color: var(--a-text-color);
 }
